@@ -1,0 +1,198 @@
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
+
+@media(max-width:576px) {
+    .btn-2 {
+        width: 144px;
+        height: 38px;
+        padding-right: 20px;
+    }
+
+    /* .btn-outer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding: 20px 10px 10px 0;
+    } */
+}
+
+@media(max-width:360px) and (min-width:321px) {
+    .btn-2 {
+        width: 110px;
+    }
+    .banner li {
+        font-size: 15px;
+    }
+
+    .banner img {
+        width: 22px;
+        height: 22px;
+
+    }
+    /* .btn-outer{
+        padding-right: 20px;
+    } */
+}
+@media(max-width:428px) and (min-width:412px){
+    .btn-outer{
+        padding-right: 30px;
+    }
+}
+@media(max-width:320px) {
+    .btn-2 {
+        width: 110px;
+    }
+
+    /* .btn-outer {
+        padding: 0 0 10px 0;
+        gap: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .banner li {
+        font-size: 14px;
+    }
+
+    .banner img {
+        width: 22px;
+        height: 22px;
+
+    }
+}
+@media(min-width:0px) and (max-width:575px){
+    .btn-outer{
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom : 20px;
+    }
+    .book-btn,.curr-btn{
+        width: 100%;
+        font-size: 16px; 
+        margin: 15px auto !important;
+    }
+    .banner h1{
+        line-height: 40px;
+    }
+    .banner{
+        line-height:35px;
+    }
+    .banner-btn{
+        display:flex;
+        flex-direction: column;
+    }
+    .high-heading h4{
+        font-size: 16px;
+    }
+    .high-heading p{
+        font-size: 14px;
+    }
+    .high-box, .col-8{
+        line-height: 18px !important;
+    }
+    .freebtn{
+        width: 100%;
+        margin-left: -4%;
+    }
+   .cer-text{
+    line-height: 15px !important;
+   }
+   .cerbtn{
+    margin: 30px auto;
+   }
+   .nav-item{
+    margin: auto !important;
+   }
+   .tab-pane{
+    display: block !important;
+   }
+   .learn-box{
+    margin: auto !important;
+    margin-bottom: 20px !important;
+
+   }
+   .student-section{
+    flex-direction: column;
+   }
+   .btn{
+    margin:30px auto;
+   }
+   .ready-outer .btn{
+    width: 100%;
+   }
+   
+}
+@media(min-width:576px) and (max-width:991px){
+    .banner-btn{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .banner{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .book-btn,.curr-btn{
+        width: 50%;
+        font-size: 26px; 
+    }
+    .numbering-outer h4{
+        font-size: 20px;
+    }
+    .numbering-outer p{
+        font-size: 14px;
+    }
+    .num-box{
+        margin-top: 30px;
+    }
+    .high-box h6 , p{
+        font-size: 18px;
+    }
+    .freebtn{
+        width: 100%;
+        margin-left: -1%;
+    }
+    .cerbtn{
+        margin: 30px auto;
+       }
+       .cer-img{
+        width: 100%;
+       }
+       .learn-outer .row{
+        display: block !important;
+       }
+       .learn-box{
+        width: 100%;
+        margin-bottom: 20px;
+       }
+       .student-section-box{
+        width: 100%;
+      }
+      
+}
+
+
+@media(min-width:992px){
+    .banner-btn{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .getcer{
+        gap: 35px !important;
+    }
+    
+    
+}
