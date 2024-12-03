@@ -135,18 +135,21 @@
 
 .career-box img {
     box-shadow: 0px 1px 3px 0px #1018281A;
-   border-radius: 8px;
+    border-radius: 8px;
 }
-.career-box h6{
+
+.career-box h6 {
     font-size: 18px;
     margin-top: 25px;
     margin-bottom: 15px;
     font-weight: 600;
 }
-.career-box p{
+
+.career-box p {
     font-size: 15px;
 }
-.img-out{
+
+.img-out {
     width: 85px;
     height: 85px;
     display: flex;
@@ -156,164 +159,198 @@
     margin-left: 15px;
     border-radius: 10px;
 }
-.cer-text{
+
+.cer-text {
     display: flex;
     padding-top: 10px;
     justify-content: center;
     flex-direction: column;
 }
-.cer-outer{
-    justify-content:start;
+
+.cer-outer {
+    justify-content: start;
     align-items: center;
 }
-.cerBox{
+
+.cerBox {
     display: flex;
     justify-content: right;
     position: relative;
 }
-.cerBox img{
+
+.cerBox img {
     margin-right: 40px;
     z-index: 999;
 }
-.dot{
+
+.dot {
     position: absolute;
     left: 35px;
     top: -15px;
 }
-.circle{
+
+.circle {
     width: 210px;
     height: 210px;
     border-radius: 50%;
-    background-color:#E9F5FF;
+    background-color: #E9F5FF;
     position: absolute;
     bottom: -45px;
     left: 370px;
 }
-.cerbtn{
+
+.cerbtn {
     margin-left: 0;
     margin-top: 33px;
 }
-.nav-pills .nav-link{
+
+.nav-pills .nav-link {
     border-radius: 3px;
     color: rgb(26, 26, 26);
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
-    background-color:#c4c6c9;
-    border-bottom:3px solid #2699FB;
-    color: rgb(26, 26, 26) ;
+    background-color: #c4c6c9;
+    border-bottom: 3px solid #2699FB;
+    color: rgb(26, 26, 26);
 }
-.navPillsBox{
+
+.navPillsBox {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     flex-direction: column;
 
 }
-#pills-tab{
-    gap:5%;
+
+#pills-tab {
+    gap: 5%;
 }
+
 .tab-pane {
     border: 1px solid #F2F4F7;
     box-shadow: 0px 4px 20px -2px #002F5814;
     display: flex !important;
     justify-content: space-between;
 }
-.tab-pane ul li img{
+
+.tab-pane ul li img {
     margin-right: 8px;
 }
-.tab-pane ul li{
+
+.tab-pane ul li {
     line-height: 40px !important;
 }
-.learn-outer{
+
+.learn-outer {
     background-color: #F7FAFF;
 }
-.learn-box{
+
+.learn-box {
     background-color: white;
     border-radius: 3px;
-    
+
 }
-.student-section-box{
+
+.student-section-box {
     border: 1px solid #F2F4F7;
     box-shadow: 0px 4px 20px -2px #002F5814;
     width: 560px;
 }
-.student-section{
+
+.student-section {
     margin-top: 40px;
     margin-bottom: 50px;
 }
-.ready-outer{
+
+.ready-outer {
     background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
     color: white;
     padding: 40px;
     border-radius: 20px;
 }
-.ready-outer .btn{
+
+.ready-outer .btn {
     background-color: white;
     color: black;
     font-weight: 600;
     display: block;
     margin: auto;
 }
-.faq-container{
+
+.faq-container {
     background-color: #F7FAFF;
-   
+
 }
-.faq-container .container{
+
+.faq-container .container {
     max-width: 770px;
 }
-.accordion{
+
+.accordion {
     margin: auto;
     margin-top: 30px;
 }
-.accordion-item{
-    margin-bottom: 10px;position: relative;
+
+.accordion-item {
+    margin-bottom: 10px;
+    position: relative;
 }
-.accordion-header button{
+
+.accordion-header button {
     font-weight: 600;
 }
 
 .accordion-button::after {
-  display: none;
+    display: none;
 }
+
 .fa-solid {
     position: absolute;
     right: 20px;
 }
-.accordion-item :focus .fa-plus{
+
+.accordion-item :focus .fa-plus {
     visibility: hidden;
 }
-.fa-plus{
+
+.fa-plus {
     visibility: visible;
 }
-.fa-minus{
+
+.fa-minus {
     visibility: hidden;
 }
-.accordion-item :focus .fa-minus{
+
+.accordion-item :focus .fa-minus {
     visibility: visible;
 }
-.footer{
+
+.footer {
     background-color: #0A2540;
     color: white;
-    border-bottom:1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
 }
-.footer .col-12{
+
+.footer .col-12 {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     line-height: 30px;
 }
-.last-footer{
+
+.last-footer {
     background-color: #0A2540;
     color: white;
     border: none;
 }
-.last-footer a{
+
+.last-footer a {
     color: inherit;
     text-decoration: underline;
     text-decoration-color: rgb(98, 97, 97);
     text-decoration-thickness: 2px;
 }
-
-

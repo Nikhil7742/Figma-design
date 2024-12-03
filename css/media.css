@@ -16,21 +16,13 @@
         height: 38px;
         padding-right: 20px;
     }
-
-    /* .btn-outer {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 5px;
-        padding: 20px 10px 10px 0;
-    } */
 }
 
 @media(max-width:360px) and (min-width:321px) {
     .btn-2 {
         width: 110px;
     }
+
     .banner li {
         font-size: 15px;
     }
@@ -40,27 +32,19 @@
         height: 22px;
 
     }
-    /* .btn-outer{
-        padding-right: 20px;
-    } */
 }
-@media(max-width:428px) and (min-width:412px){
-    .btn-outer{
+
+@media(max-width:428px) and (min-width:412px) {
+    .btn-outer {
         padding-right: 30px;
     }
 }
+
 @media(max-width:320px) {
     .btn-2 {
         width: 110px;
     }
 
-    /* .btn-outer {
-        padding: 0 0 10px 0;
-        gap: 2px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
 
     .banner li {
         font-size: 14px;
@@ -72,127 +56,162 @@
 
     }
 }
-@media(min-width:0px) and (max-width:575px){
-    .btn-outer{
+
+@media(min-width:0px) and (max-width:575px) {
+    .btn-outer {
         margin: auto;
         padding-top: 20px;
-        padding-bottom : 20px;
+        padding-bottom: 20px;
     }
-    .book-btn,.curr-btn{
+
+    .book-btn,
+    .curr-btn {
         width: 100%;
-        font-size: 16px; 
+        font-size: 16px;
         margin: 15px auto !important;
     }
-    .banner h1{
+
+    .banner h1 {
         line-height: 40px;
     }
-    .banner{
-        line-height:35px;
+
+    .banner {
+        line-height: 35px;
     }
-    .banner-btn{
-        display:flex;
+
+    .banner-btn {
+        display: flex;
         flex-direction: column;
     }
-    .high-heading h4{
+
+    .high-heading h4 {
         font-size: 16px;
     }
-    .high-heading p{
+
+    .high-heading p {
         font-size: 14px;
     }
-    .high-box, .col-8{
+
+    .high-box,
+    .col-8 {
         line-height: 18px !important;
     }
-    .freebtn{
+
+    .freebtn {
         width: 100%;
         margin-left: -4%;
     }
-   .cer-text{
-    line-height: 15px !important;
-   }
-   .cerbtn{
-    margin: 30px auto;
-   }
-   .nav-item{
-    margin: auto !important;
-   }
-   .tab-pane{
-    display: block !important;
-   }
-   .learn-box{
-    margin: auto !important;
-    margin-bottom: 20px !important;
 
-   }
-   .student-section{
-    flex-direction: column;
-   }
-   .btn{
-    margin:30px auto;
-   }
-   .ready-outer .btn{
-    width: 100%;
-   }
-   
+    .cer-text {
+        line-height: 15px !important;
+    }
+
+    .cerbtn {
+        margin: 30px auto;
+    }
+
+    .nav-item {
+        margin: auto !important;
+    }
+
+    .tab-pane {
+        display: block !important;
+    }
+
+    .learn-box {
+        margin: auto !important;
+        margin-bottom: 20px !important;
+
+    }
+
+    .student-section {
+        flex-direction: column;
+    }
+
+    .btn {
+        margin: 30px auto;
+    }
+
+    .ready-outer .btn {
+        width: 100%;
+    }
+
 }
-@media(min-width:576px) and (max-width:991px){
-    .banner-btn{
+
+@media(min-width:576px) and (max-width:991px) {
+    .banner-btn {
         display: flex;
         flex-direction: row;
         gap: 15px;
     }
-    .banner{
+
+    .banner {
         font-size: 26px;
         line-height: 40px;
     }
-    .book-btn,.curr-btn{
+
+    .book-btn,
+    .curr-btn {
         width: 50%;
-        font-size: 26px; 
+        font-size: 26px;
     }
-    .numbering-outer h4{
+
+    .numbering-outer h4 {
         font-size: 20px;
     }
-    .numbering-outer p{
+
+    .numbering-outer p {
         font-size: 14px;
     }
-    .num-box{
+
+    .num-box {
         margin-top: 30px;
     }
-    .high-box h6 , p{
+
+    .high-box h6,
+    p {
         font-size: 18px;
     }
-    .freebtn{
+
+    .freebtn {
         width: 100%;
         margin-left: -1%;
     }
-    .cerbtn{
+
+    .cerbtn {
         margin: 30px auto;
-       }
-       .cer-img{
+    }
+
+    .cer-img {
         width: 100%;
-       }
-       .learn-outer .row{
+    }
+
+    .learn-outer .row {
         display: block !important;
-       }
-       .learn-box{
+    }
+
+    .learn-box {
         width: 100%;
         margin-bottom: 20px;
-       }
-       .student-section-box{
+    }
+
+    .student-section-box {
         width: 100%;
-      }
-      
+    }
+
 }
 
 
-@media(min-width:992px){
-    .banner-btn{
+@media(min-width:992px) {
+    .banner-btn {
         display: flex;
         flex-direction: row;
         gap: 20px;
     }
-    .getcer{
+
+    .getcer {
         gap: 35px !important;
     }
-    
-    
+
+
 }
